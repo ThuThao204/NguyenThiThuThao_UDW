@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    /* margin:0px  20px 0px 20px;
+    padding:0px 20px 0px 20px; */
+}
+.nav-item:hover{
+   background-color: lightblue;
+   /* text-decoration: none;
+   display: inline-block;
+   position: relative; */
+}
+.header ul li{
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-family: 'Lobster', cursive;
+	width: 120px;
+	position: relative;	
+}
+.header li ul{
+	margin-left: 0;
+	padding:0;
+	display: none;
+	position: absolute;
+	top:40px;
+	left:0;
+	background: #000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.ft{
+  color: white;
+  text-decoration: none;
+}
+
+/* .card{
+  padding-left: 5px;
+} */
